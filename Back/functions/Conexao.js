@@ -1,6 +1,6 @@
 const mongoose = require("mongoose")
 
-const endereco = "mongodb+srv://admin:<PASSWORD>@cesar.fcou2pe.mongodb.net/"
+const endereco = "mongodb+srv://<USER>:<PASSWORD>@cesar.fcou2pe.mongodb.net/"
 const configuracao = { useNewUrlParser: true, useUnifiedTopology: true }
 
 mongoose.set("strictQuery", false)
